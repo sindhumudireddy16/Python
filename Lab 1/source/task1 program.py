@@ -10,4 +10,4 @@ for word in paragraph_file.split(" "):
      occurence[word] = occurence[word]+1
 print(len(occurence))
 for key,number in occurence.items():
-        print (key,number)
+           print ('"',key,'"',':',number)
